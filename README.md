@@ -131,7 +131,7 @@ module.exports = (options, req) => ({
 // module.exports = {port: 5000}
 ```
 
-To use it, you can add `--config [path]` in CLI arguments. If no path was speified, it defaults to `vbuild.config.js`.
+To use it, you can add `--config [path]` in CLI arguments. If no path was speified, it will use `vbuild.config.js` if it exists.
 
 [⬆ back to top](#toc)
 
